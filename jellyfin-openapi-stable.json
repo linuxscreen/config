@@ -354,8 +354,7 @@
             "in": "query",
             "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -439,8 +438,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -521,8 +519,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -555,8 +552,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -565,8 +561,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -717,8 +712,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -831,8 +825,7 @@
             "in": "query",
             "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -916,8 +909,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -998,8 +990,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -1032,8 +1023,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -1042,8 +1032,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -1186,8 +1175,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -1685,8 +1673,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -2186,8 +2173,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -2686,8 +2672,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -3825,8 +3810,7 @@
             "in": "query",
             "description": "User Id to filter by. Use System.Guid.Empty to not filter by user.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -3947,8 +3931,7 @@
             "description": "Channel id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -4027,8 +4010,7 @@
             "description": "Channel Id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -4036,8 +4018,7 @@
             "in": "query",
             "description": "Optional. Folder Id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -4045,8 +4026,7 @@
             "in": "query",
             "description": "Optional. User Id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -4263,8 +4243,7 @@
             "in": "query",
             "description": "Optional. User Id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -4314,8 +4293,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           }
@@ -4528,8 +4506,7 @@
             "in": "query",
             "description": "Optional. Create the collection within a specific folder.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -4618,8 +4595,7 @@
             "description": "The collection id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -4630,8 +4606,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           }
@@ -4693,8 +4668,7 @@
             "description": "The collection id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -4705,8 +4679,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           }
@@ -5415,8 +5388,7 @@
             "in": "query",
             "description": "Gets or sets the user identifier.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -5877,8 +5849,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -5972,8 +5943,7 @@
             "in": "query",
             "description": "User Id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -6080,8 +6050,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -6643,8 +6612,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -7157,8 +7125,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -7679,8 +7646,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -8203,8 +8169,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -8784,8 +8749,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -9333,8 +9297,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -9865,8 +9828,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -10414,8 +10376,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -11485,8 +11446,7 @@
             "in": "query",
             "description": "Optional. User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -11494,8 +11454,7 @@
             "in": "query",
             "description": "Optional. Parent id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -11595,8 +11554,7 @@
             "in": "query",
             "description": "Optional. User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -11604,8 +11562,7 @@
             "in": "query",
             "description": "Optional. Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -11776,8 +11733,7 @@
             "in": "query",
             "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -11846,8 +11802,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -11998,8 +11953,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -14177,8 +14131,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -14286,8 +14239,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -14405,8 +14357,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -14545,8 +14496,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -14793,8 +14743,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -15043,8 +14992,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -15163,8 +15111,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -15313,8 +15260,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -15562,8 +15508,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -15813,8 +15758,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -16069,8 +16013,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -16327,8 +16270,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -19440,8 +19382,7 @@
             "in": "query",
             "description": "User Id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -19567,8 +19508,7 @@
             "in": "query",
             "description": "User Id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -19644,8 +19584,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -19767,8 +19706,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -19893,8 +19831,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -19902,8 +19839,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -20058,8 +19994,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -20067,8 +20002,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -20223,8 +20157,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -20232,8 +20165,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -20389,8 +20321,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -20398,8 +20329,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -20562,8 +20492,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -20698,8 +20627,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -20707,8 +20635,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -20863,8 +20790,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -20872,8 +20798,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -21028,8 +20953,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -21037,8 +20961,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -21193,8 +21116,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -21303,8 +21225,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -22420,8 +22341,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -22567,8 +22487,7 @@
             "in": "query",
             "description": "The user id supplied as query parameter; this is required when not using an API key.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -22624,8 +22543,7 @@
             "in": "query",
             "description": "Optional. Return items that are siblings of a supplied item.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -22841,8 +22759,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -22896,8 +22813,7 @@
             "in": "query",
             "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -23081,8 +22997,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -23126,8 +23041,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -23138,8 +23052,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -23150,8 +23063,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -23162,8 +23074,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -23185,8 +23096,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -23197,8 +23107,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -23339,8 +23248,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -23351,8 +23259,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -23449,8 +23356,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           }
@@ -23549,8 +23455,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -23559,8 +23464,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -23656,8 +23560,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -23666,8 +23569,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -23801,8 +23703,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -23836,8 +23737,7 @@
             "in": "query",
             "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -24015,8 +23915,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -24132,8 +24031,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -24229,8 +24127,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -24239,8 +24136,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -24319,8 +24215,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -24410,8 +24305,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -24510,8 +24404,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -24521,8 +24414,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -24531,8 +24423,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -24631,8 +24522,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -24642,8 +24532,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -24652,8 +24541,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -24752,8 +24640,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -24761,8 +24648,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -24949,8 +24835,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -25047,8 +24932,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -25144,8 +25028,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -25155,8 +25038,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -25165,8 +25047,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -25265,8 +25146,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -25274,8 +25154,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -25388,8 +25267,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -25397,8 +25275,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -25528,8 +25405,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -25537,8 +25413,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -25667,8 +25542,7 @@
             "in": "query",
             "description": "Optional. Get counts from a specific user's library.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -26415,8 +26289,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -26426,8 +26299,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -26436,8 +26308,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -26536,8 +26407,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -26547,8 +26417,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -26557,8 +26426,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -26657,8 +26525,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -26668,8 +26535,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -26678,8 +26544,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -27754,8 +27619,7 @@
             "in": "query",
             "description": "Optional. Filter by user and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -28009,8 +27873,7 @@
             "description": "Channel id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -28018,8 +27881,7 @@
             "in": "query",
             "description": "Optional. Attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -28852,8 +28714,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -28862,8 +28723,7 @@
             "in": "query",
             "description": "Optional. Filter by user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -29016,8 +28876,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -29070,8 +28929,7 @@
             "in": "query",
             "description": "Optional. Filter by library series id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -29281,8 +29139,7 @@
             "in": "query",
             "description": "Optional. Attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -29361,8 +29218,7 @@
             "in": "query",
             "description": "Optional. filter by user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -29474,8 +29330,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -29591,8 +29446,7 @@
             "in": "query",
             "description": "Optional. Filter by user and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -29831,8 +29685,7 @@
             "description": "Recording id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -29840,8 +29693,7 @@
             "in": "query",
             "description": "Optional. Attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -29939,8 +29791,7 @@
             "description": "Recording id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -30022,8 +29873,7 @@
             "in": "query",
             "description": "Optional. Filter by user and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -30102,8 +29952,7 @@
             "in": "query",
             "description": "Optional. Filter by user and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -30184,8 +30033,7 @@
             "description": "Group id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -30273,8 +30121,7 @@
             "in": "query",
             "description": "Optional. Filter by user and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -32201,8 +32048,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -32299,8 +32145,7 @@
             "description": "The item the lyric belongs to.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -32437,8 +32282,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -32521,8 +32365,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -32631,8 +32474,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -32841,8 +32683,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -32850,8 +32691,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -32949,8 +32789,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -32959,8 +32798,7 @@
             "description": "The user id.",
             "deprecated": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -33285,8 +33123,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -33347,8 +33184,7 @@
             "in": "query",
             "description": "The item id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -33559,8 +33395,7 @@
             "description": "The ItemId.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -33669,8 +33504,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -33678,8 +33512,7 @@
             "in": "query",
             "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -33823,8 +33656,7 @@
             "in": "query",
             "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -33893,8 +33725,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -34046,8 +33877,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -34211,8 +34041,7 @@
             "in": "query",
             "description": "The GUID of the associated assembly.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -34299,8 +34128,7 @@
             "in": "query",
             "description": "GUID of the associated assembly.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -34398,8 +34226,7 @@
             "description": "Installation Id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -34713,8 +34540,7 @@
             "in": "query",
             "description": "Optional. If specified, person results will be filtered on items related to said persons.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -34722,8 +34548,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -34819,8 +34644,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -34931,8 +34755,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -34942,8 +34765,7 @@
             "description": "The user id.",
             "deprecated": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -35077,8 +34899,7 @@
             "description": "The playlist id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -35211,8 +35032,7 @@
             "description": "The playlist id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -35311,8 +35131,7 @@
             "description": "The playlist id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -35322,8 +35141,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -35332,8 +35150,7 @@
             "in": "query",
             "description": "The userId.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -35538,8 +35355,7 @@
             "description": "The playlist id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -35547,8 +35363,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -35847,8 +35662,7 @@
             "description": "The playlist id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -35973,8 +35787,7 @@
             "description": "The playlist id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -35983,8 +35796,7 @@
             "description": "The user id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -36098,8 +35910,7 @@
             "description": "The playlist id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -36108,8 +35919,7 @@
             "description": "The user id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -36242,8 +36052,7 @@
             "description": "The playlist id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -36252,8 +36061,7 @@
             "description": "The user id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -36352,8 +36160,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -36482,8 +36289,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -36587,8 +36393,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -37082,8 +36887,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -37092,8 +36896,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -37198,8 +37001,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -37208,8 +37010,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -37385,8 +37186,7 @@
             "description": "Plugin id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -37469,8 +37269,7 @@
             "description": "Plugin id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -37561,8 +37360,7 @@
             "description": "Plugin id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -37653,8 +37451,7 @@
             "description": "Plugin id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -37745,8 +37542,7 @@
             "description": "Plugin id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -37845,8 +37641,7 @@
             "description": "Plugin id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -37944,8 +37739,7 @@
             "description": "Plugin id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -38027,8 +37821,7 @@
             "description": "Plugin id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -38118,8 +37911,7 @@
             "in": "query",
             "description": "The user the authorize. Access to the requested user is required.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -38414,8 +38206,7 @@
             "description": "Item Id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -38576,8 +38367,7 @@
             "description": "Item Id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -38696,8 +38486,7 @@
             "description": "Item Id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -39290,8 +39079,7 @@
             "in": "query",
             "description": "Optional. Supply a user id to search within a user's library or omit to search all.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -39341,8 +39129,7 @@
             "in": "query",
             "description": "If specified, only children of the parent are returned.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -39659,8 +39446,7 @@
             "in": "query",
             "description": "Filter by sessions that a given user is allowed to remote control.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -40108,8 +39894,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -40450,8 +40235,7 @@
             "description": "The user id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -40520,8 +40304,7 @@
             "description": "The user id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -41578,8 +41361,7 @@
             "in": "query",
             "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -41656,8 +41438,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -41786,8 +41567,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -42013,8 +41793,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -42140,8 +41919,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -42304,8 +42082,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -42424,8 +42201,7 @@
             "description": "The item the subtitle belongs to.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -42544,8 +42320,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -42637,8 +42412,7 @@
             "description": "The (route) item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -42685,8 +42459,7 @@
             "description": "The item id.",
             "deprecated": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -42808,8 +42581,7 @@
             "description": "The (route) item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -42846,8 +42618,7 @@
             "description": "The item id.",
             "deprecated": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -42968,8 +42739,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -43097,8 +42867,7 @@
             "description": "The id of the group.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -45801,8 +45570,7 @@
             "in": "query",
             "description": "The user id supplied as query parameter; this is required when not using an API key.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -45858,8 +45626,7 @@
             "in": "query",
             "description": "Optional. Return items that are siblings of a supplied item.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -46066,8 +45833,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -46121,8 +45887,7 @@
             "in": "query",
             "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -46295,8 +46060,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -46340,8 +46104,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -46352,8 +46115,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -46364,8 +46126,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -46376,8 +46137,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -46399,8 +46159,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -46411,8 +46170,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -46553,8 +46311,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -46565,8 +46322,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           },
@@ -46664,8 +46420,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -46693,8 +46448,7 @@
             "in": "query",
             "description": "The media version id, if using an alternate version.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -46784,8 +46538,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -46803,8 +46556,7 @@
             "in": "query",
             "description": "The media version id, if using an alternate version.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -46894,8 +46646,7 @@
             "description": "The series id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -46903,8 +46654,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -46932,8 +46682,7 @@
             "in": "query",
             "description": "Optional. Filter by season id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -46949,8 +46698,7 @@
             "in": "query",
             "description": "Optional. Return items that are siblings of a supplied item.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -46958,8 +46706,7 @@
             "in": "query",
             "description": "Optional. Skip through the list until a given item is found.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -47156,8 +46903,7 @@
             "description": "The series id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -47165,8 +46911,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -47201,8 +46946,7 @@
             "in": "query",
             "description": "Optional. Return items that are siblings of a supplied item.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -47336,8 +47080,7 @@
             "in": "query",
             "description": "The user id of the user to get the next up episodes for.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -47374,8 +47117,7 @@
             "in": "query",
             "description": "Optional. Filter by series id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -47383,8 +47125,7 @@
             "in": "query",
             "description": "Optional. Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -47544,8 +47285,7 @@
             "in": "query",
             "description": "The user id of the user to get the upcoming episodes for.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -47582,8 +47322,7 @@
             "in": "query",
             "description": "Optional. Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -47698,8 +47437,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -47734,8 +47472,7 @@
             "in": "query",
             "description": "Optional. The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -47958,8 +47695,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -47994,8 +47730,7 @@
             "in": "query",
             "description": "Optional. The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -48312,8 +48047,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -48448,8 +48182,7 @@
             "description": "The user id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -48547,8 +48280,7 @@
             "description": "The user id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -48630,8 +48362,7 @@
             "description": "The user id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -48762,8 +48493,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -48797,8 +48527,7 @@
             "in": "query",
             "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -49160,8 +48889,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -49649,8 +49377,7 @@
             "in": "query",
             "description": "The user id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -49848,8 +49575,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -49858,8 +49584,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -49937,8 +49662,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -49947,8 +49671,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -50035,8 +49758,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -50045,8 +49767,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -50133,8 +49854,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -50142,8 +49862,7 @@
             "in": "query",
             "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -50315,8 +50034,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -50394,8 +50112,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -50404,8 +50121,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -50481,8 +50197,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -50491,8 +50206,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -50570,8 +50284,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -50580,8 +50293,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -50657,8 +50369,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -50667,8 +50378,7 @@
             "description": "Item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -50754,8 +50464,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -50861,8 +50570,7 @@
             "in": "query",
             "description": "User id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -50970,8 +50678,7 @@
             "description": "Video ID.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -51067,8 +50774,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -51076,8 +50782,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -51156,8 +50861,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -51239,8 +50943,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -51756,8 +51459,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -52275,8 +51977,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -52792,8 +52493,7 @@
             "description": "The item id.",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -53313,8 +53013,7 @@
             "schema": {
               "type": "array",
               "items": {
-                "type": "string",
-                "format": "uuid"
+                "type": "string"
               }
             }
           }
@@ -53425,8 +53124,7 @@
             "in": "query",
             "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -53517,8 +53215,7 @@
             "in": "query",
             "description": "User Id.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           {
@@ -53624,8 +53321,7 @@
             "in": "query",
             "description": "Optional. Filter by user id, and attach user data.",
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -53724,8 +53420,7 @@
           },
           "UserId": {
             "type": "string",
-            "description": "Gets the id of the associated user.",
-            "format": "uuid"
+            "description": "Gets the id of the associated user."
           },
           "DayOfWeek": {
             "enum": [
@@ -53799,8 +53494,7 @@
           },
           "UserId": {
             "type": "string",
-            "description": "Gets or sets the user identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the user identifier."
           },
           "UserPrimaryImageTag": {
             "type": "string",
@@ -53842,8 +53536,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -54143,8 +53836,7 @@
             "nullable": true
           },
           "ItemId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           },
           "SearchProviderName": {
             "type": "string",
@@ -54273,8 +53965,7 @@
             "nullable": true
           },
           "ItemId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           },
           "SearchProviderName": {
             "type": "string",
@@ -54349,8 +54040,7 @@
           },
           "UserId": {
             "type": "string",
-            "description": "Gets or sets the user identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the user identifier."
           },
           "IsActive": {
             "type": "boolean",
@@ -54522,8 +54212,7 @@
           },
           "Id": {
             "type": "string",
-            "description": "Gets or sets the id.",
-            "format": "uuid"
+            "description": "Gets or sets the id."
           },
           "Etag": {
             "type": "string",
@@ -54698,7 +54387,6 @@
           "ChannelId": {
             "type": "string",
             "description": "Gets or sets the channel identifier.",
-            "format": "uuid",
             "nullable": true
           },
           "ChannelName": {
@@ -54830,7 +54518,6 @@
           "ParentId": {
             "type": "string",
             "description": "Gets or sets the parent id.",
-            "format": "uuid",
             "nullable": true
           },
           "Type": {
@@ -54906,13 +54593,11 @@
           "ParentLogoItemId": {
             "type": "string",
             "description": "Gets or sets whether the item has a logo, this will hold the Id of the Parent that has one.",
-            "format": "uuid",
             "nullable": true
           },
           "ParentBackdropItemId": {
             "type": "string",
             "description": "Gets or sets whether the item has any backdrops, this will hold the Id of the Parent that has one.",
-            "format": "uuid",
             "nullable": true
           },
           "ParentBackdropImageTags": {
@@ -54958,13 +54643,11 @@
           "SeriesId": {
             "type": "string",
             "description": "Gets or sets the series id.",
-            "format": "uuid",
             "nullable": true
           },
           "SeasonId": {
             "type": "string",
             "description": "Gets or sets the season identifier.",
-            "format": "uuid",
             "nullable": true
           },
           "SpecialFeatureCount": {
@@ -55063,7 +54746,6 @@
           "AlbumId": {
             "type": "string",
             "description": "Gets or sets the album id.",
-            "format": "uuid",
             "nullable": true
           },
           "AlbumPrimaryImageTag": {
@@ -55160,7 +54842,6 @@
           "ParentArtItemId": {
             "type": "string",
             "description": "Gets or sets whether the item has fan art, this will hold the Id of the Parent that has one.",
-            "format": "uuid",
             "nullable": true
           },
           "ParentArtImageTag": {
@@ -55266,7 +54947,6 @@
           "ParentThumbItemId": {
             "type": "string",
             "description": "Gets or sets the parent thumb item id.",
-            "format": "uuid",
             "nullable": true
           },
           "ParentThumbImageTag": {
@@ -55277,7 +54957,6 @@
           "ParentPrimaryImageItemId": {
             "type": "string",
             "description": "Gets or sets the parent primary image item identifier.",
-            "format": "uuid",
             "nullable": true
           },
           "ParentPrimaryImageTag": {
@@ -55702,8 +55381,7 @@
           },
           "Id": {
             "type": "string",
-            "description": "Gets or sets the identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the identifier."
           },
           "Role": {
             "type": "string",
@@ -55925,8 +55603,7 @@
             "nullable": true
           },
           "ItemId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           },
           "SearchProviderName": {
             "type": "string",
@@ -56016,8 +55693,7 @@
             "nullable": true
           },
           "ItemId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           },
           "SearchProviderName": {
             "type": "string",
@@ -56071,8 +55747,7 @@
           },
           "PlaylistItemId": {
             "type": "string",
-            "description": "Gets or sets the playlist item identifier of the playing item.",
-            "format": "uuid"
+            "description": "Gets or sets the playlist item identifier of the playing item."
           }
         },
         "additionalProperties": false,
@@ -56102,8 +55777,7 @@
           },
           "Id": {
             "type": "string",
-            "description": "Gets or sets the identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the identifier."
           },
           "CanSearch": {
             "type": "boolean",
@@ -56385,8 +56059,7 @@
         "type": "object",
         "properties": {
           "Id": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           }
         },
         "additionalProperties": false
@@ -56502,7 +56175,6 @@
           "PluginId": {
             "type": "string",
             "description": "Gets or sets the plugin id.",
-            "format": "uuid",
             "nullable": true
           }
         },
@@ -56585,15 +56257,13 @@
           "Ids": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "description": "Gets or sets item ids to add to the playlist."
           },
           "UserId": {
             "type": "string",
             "description": "Gets or sets the user id.",
-            "format": "uuid",
             "nullable": true
           },
           "MediaType": {
@@ -56841,7 +56511,6 @@
           "LastUserId": {
             "type": "string",
             "description": "Gets or sets the last user identifier.",
-            "format": "uuid",
             "nullable": true
           },
           "DateLastActivity": {
@@ -56924,7 +56593,6 @@
           "Id": {
             "type": "string",
             "description": "Gets or sets the unique internal identifier.",
-            "format": "uuid",
             "nullable": true
           },
           "MaxStreamingBitrate": {
@@ -57705,8 +57373,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -57881,8 +57548,7 @@
             "description": "This exists simply to identify a set of known commands."
           },
           "ControllingUserId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           },
           "Arguments": {
             "type": "object",
@@ -57908,8 +57574,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -58016,8 +57681,7 @@
           "ChannelIds": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "description": "Gets or sets the channels to return guide information for.",
             "nullable": true
@@ -58025,7 +57689,6 @@
           "UserId": {
             "type": "string",
             "description": "Gets or sets optional. Filter by user id.",
-            "format": "uuid",
             "nullable": true
           },
           "MinStartDate": {
@@ -58126,8 +57789,7 @@
           "GenreIds": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "description": "Gets or sets the genre ids to return guide information for.",
             "nullable": true
@@ -58169,7 +57831,6 @@
           "LibrarySeriesId": {
             "type": "string",
             "description": "Gets or sets filter by library series id.",
-            "format": "uuid",
             "nullable": true
           },
           "Fields": {
@@ -58189,8 +57850,7 @@
         "properties": {
           "GroupId": {
             "type": "string",
-            "description": "Gets the group identifier.",
-            "format": "uuid"
+            "description": "Gets the group identifier."
           },
           "GroupName": {
             "type": "string",
@@ -58700,8 +58360,7 @@
         "properties": {
           "Guid": {
             "type": "string",
-            "description": "Gets or sets the Id.",
-            "format": "uuid"
+            "description": "Gets or sets the Id."
           },
           "Name": {
             "type": "string",
@@ -58759,7 +58418,6 @@
           "Id": {
             "type": "string",
             "description": "Gets the unique id.",
-            "format": "uuid",
             "readOnly": true
           },
           "Version": {
@@ -58975,8 +58633,7 @@
         "properties": {
           "GroupId": {
             "type": "string",
-            "description": "Gets or sets the group identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the group identifier."
           }
         },
         "additionalProperties": false,
@@ -59005,8 +58662,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -59326,8 +58982,7 @@
         "properties": {
           "Id": {
             "type": "string",
-            "description": "Gets or sets the Library Id.",
-            "format": "uuid"
+            "description": "Gets or sets the Library Id."
           },
           "Name": {
             "type": "string",
@@ -59992,13 +59647,11 @@
         "properties": {
           "Id": {
             "type": "string",
-            "description": "Gets or sets the id of the media segment.",
-            "format": "uuid"
+            "description": "Gets or sets the id of the media segment."
           },
           "ItemId": {
             "type": "string",
-            "description": "Gets or sets the id of the associated item.",
-            "format": "uuid"
+            "description": "Gets or sets the id of the associated item."
           },
           "Type": {
             "enum": [
@@ -61000,8 +60653,7 @@
         "properties": {
           "PlaylistItemId": {
             "type": "string",
-            "description": "Gets or sets the playlist identifier of the item.",
-            "format": "uuid"
+            "description": "Gets or sets the playlist identifier of the item."
           },
           "NewIndex": {
             "type": "integer",
@@ -61088,8 +60740,7 @@
             "nullable": true
           },
           "ItemId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           },
           "SearchProviderName": {
             "type": "string",
@@ -61186,8 +60837,7 @@
             "nullable": true
           },
           "ItemId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           },
           "SearchProviderName": {
             "type": "string",
@@ -61209,8 +60859,7 @@
             "nullable": true
           },
           "Id": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           }
         },
         "additionalProperties": false
@@ -61385,8 +61034,7 @@
         "properties": {
           "PlaylistItemId": {
             "type": "string",
-            "description": "Gets or sets the playing item identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the playing item identifier."
           }
         },
         "additionalProperties": false,
@@ -61403,7 +61051,6 @@
           "UserId": {
             "type": "string",
             "description": "Gets or sets the user id.",
-            "format": "uuid",
             "nullable": true
           },
           "PlaySessionId": {
@@ -61444,7 +61091,6 @@
           "ItemId": {
             "type": "string",
             "description": "Gets or sets the item id.",
-            "format": "uuid",
             "nullable": true
           },
           "EnableDirectPlay": {
@@ -61487,8 +61133,7 @@
         "properties": {
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -61688,8 +61333,7 @@
           },
           "guid": {
             "type": "string",
-            "description": "Gets or sets the guid of the assembly associated with this plugin.\r\nThis is used to identify the proper item for automatic updates.",
-            "format": "uuid"
+            "description": "Gets or sets the guid of the assembly associated with this plugin.\r\nThis is used to identify the proper item for automatic updates."
           },
           "versions": {
             "type": "array",
@@ -61873,8 +61517,7 @@
             "nullable": true
           },
           "ItemId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           },
           "SearchProviderName": {
             "type": "string",
@@ -61938,7 +61581,6 @@
           "UserId": {
             "type": "string",
             "description": "Gets or sets the playback userId.",
-            "format": "uuid",
             "nullable": true
           },
           "MaxStreamingBitrate": {
@@ -62088,8 +61730,7 @@
           },
           "ItemId": {
             "type": "string",
-            "description": "Gets or sets the item identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the item identifier."
           },
           "SessionId": {
             "type": "string",
@@ -62251,8 +61892,7 @@
           },
           "ItemId": {
             "type": "string",
-            "description": "Gets or sets the item identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the item identifier."
           },
           "SessionId": {
             "type": "string",
@@ -62387,8 +62027,7 @@
           },
           "ItemId": {
             "type": "string",
-            "description": "Gets or sets the item identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the item identifier."
           },
           "SessionId": {
             "type": "string",
@@ -62567,8 +62206,7 @@
           "ItemIds": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "description": "Gets or sets the item ids."
           }
@@ -62581,8 +62219,7 @@
         "properties": {
           "UserId": {
             "type": "string",
-            "description": "Gets or sets the user id.",
-            "format": "uuid"
+            "description": "Gets or sets the user id."
           },
           "CanEdit": {
             "type": "boolean",
@@ -62606,8 +62243,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -62767,8 +62403,7 @@
           "ItemIds": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "description": "Gets or sets the item ids.",
             "nullable": true
@@ -62796,8 +62431,7 @@
           },
           "ControllingUserId": {
             "type": "string",
-            "description": "Gets or sets the controlling user identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the controlling user identifier."
           },
           "SubtitleStreamIndex": {
             "type": "integer",
@@ -62828,8 +62462,7 @@
           "PlayingQueue": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "description": "Gets or sets the playing queue."
           },
@@ -62876,8 +62509,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -62986,8 +62618,7 @@
           },
           "Id": {
             "type": "string",
-            "description": "Gets or sets the unique id.",
-            "format": "uuid"
+            "description": "Gets or sets the unique id."
           },
           "CanUninstall": {
             "type": "boolean",
@@ -63033,8 +62664,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -63100,8 +62730,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -63167,8 +62796,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -63234,8 +62862,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -63315,8 +62942,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -63373,8 +62999,7 @@
         "properties": {
           "PlaylistItemId": {
             "type": "string",
-            "description": "Gets or sets the playing item identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the playing item identifier."
           }
         },
         "additionalProperties": false,
@@ -63631,8 +63256,7 @@
         "type": "object",
         "properties": {
           "Id": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           },
           "PlaylistItemId": {
             "type": "string",
@@ -63647,8 +63271,7 @@
           "ItemIds": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "description": "Gets or sets the items to enqueue."
           },
@@ -63748,8 +63371,7 @@
           },
           "PlaylistItemId": {
             "type": "string",
-            "description": "Gets or sets the playlist item identifier of the playing item.",
-            "format": "uuid"
+            "description": "Gets or sets the playlist item identifier of the playing item."
           }
         },
         "additionalProperties": false,
@@ -63785,8 +63407,7 @@
             "nullable": true
           },
           "CategoryId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           }
         },
         "additionalProperties": false
@@ -63828,8 +63449,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -64171,8 +63791,7 @@
           "PlaylistItemIds": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "description": "Gets or sets the playlist identifiers of the items. Ignored when clearing the playlist."
           },
@@ -64222,8 +63841,7 @@
         "properties": {
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -64289,8 +63907,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -64355,8 +63972,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -64533,13 +64149,11 @@
           "ItemId": {
             "type": "string",
             "description": "Gets or sets the item id.",
-            "format": "uuid",
             "deprecated": true
           },
           "Id": {
             "type": "string",
-            "description": "Gets or sets the item id.",
-            "format": "uuid"
+            "description": "Gets or sets the item id."
           },
           "Name": {
             "type": "string",
@@ -64697,7 +64311,6 @@
           "AlbumId": {
             "type": "string",
             "description": "Gets or sets the album id.",
-            "format": "uuid",
             "nullable": true
           },
           "AlbumArtist": {
@@ -64727,7 +64340,6 @@
           "ChannelId": {
             "type": "string",
             "description": "Gets or sets the channel identifier.",
-            "format": "uuid",
             "nullable": true
           },
           "ChannelName": {
@@ -64781,13 +64393,11 @@
         "properties": {
           "GroupId": {
             "type": "string",
-            "description": "Gets the group identifier.",
-            "format": "uuid"
+            "description": "Gets the group identifier."
           },
           "PlaylistItemId": {
             "type": "string",
-            "description": "Gets the playlist identifier of the playing item.",
-            "format": "uuid"
+            "description": "Gets the playlist identifier of the playing item."
           },
           "When": {
             "type": "string",
@@ -64909,8 +64519,7 @@
             "nullable": true
           },
           "ItemId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           },
           "SearchProviderName": {
             "type": "string",
@@ -64947,8 +64556,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -65014,8 +64622,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -65091,8 +64698,7 @@
           },
           "ChannelId": {
             "type": "string",
-            "description": "Gets or sets the channel id of the recording.",
-            "format": "uuid"
+            "description": "Gets or sets the channel id of the recording."
           },
           "ExternalChannelId": {
             "type": "string",
@@ -65254,7 +64860,6 @@
           "ParentPrimaryImageItemId": {
             "type": "string",
             "description": "Gets or sets the parent primary image item identifier.",
-            "format": "uuid",
             "nullable": true
           },
           "ParentPrimaryImageTag": {
@@ -65611,8 +65216,7 @@
         "properties": {
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -65669,8 +65273,7 @@
         "properties": {
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -65770,8 +65373,7 @@
           },
           "UserId": {
             "type": "string",
-            "description": "Gets or sets the user id.",
-            "format": "uuid"
+            "description": "Gets or sets the user id."
           },
           "UserName": {
             "type": "string",
@@ -65957,8 +65559,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -66126,8 +65727,7 @@
         "properties": {
           "UserId": {
             "type": "string",
-            "description": "Gets or sets the user identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the user identifier."
           },
           "UserName": {
             "type": "string",
@@ -66167,8 +65767,7 @@
         "properties": {
           "PlaylistItemId": {
             "type": "string",
-            "description": "Gets or sets the playlist identifier of the playing item.",
-            "format": "uuid"
+            "description": "Gets or sets the playlist identifier of the playing item."
           }
         },
         "additionalProperties": false,
@@ -66501,8 +66100,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -66560,7 +66158,6 @@
           "GroupId": {
             "type": "string",
             "description": "Gets the group identifier.",
-            "format": "uuid",
             "readOnly": true
           },
           "Data": {
@@ -66598,7 +66195,6 @@
           "GroupId": {
             "type": "string",
             "description": "Gets the group identifier.",
-            "format": "uuid",
             "readOnly": true
           },
           "Data": {
@@ -66640,7 +66236,6 @@
           "GroupId": {
             "type": "string",
             "description": "Gets the group identifier.",
-            "format": "uuid",
             "readOnly": true
           },
           "Data": {
@@ -66685,8 +66280,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -66744,7 +66338,6 @@
           "GroupId": {
             "type": "string",
             "description": "Gets the group identifier.",
-            "format": "uuid",
             "readOnly": true
           },
           "Data": {
@@ -66782,7 +66375,6 @@
           "GroupId": {
             "type": "string",
             "description": "Gets the group identifier.",
-            "format": "uuid",
             "readOnly": true
           },
           "Data": {
@@ -66820,7 +66412,6 @@
           "GroupId": {
             "type": "string",
             "description": "Gets the group identifier.",
-            "format": "uuid",
             "readOnly": true
           },
           "Data": {
@@ -66861,13 +66452,11 @@
         "properties": {
           "ItemId": {
             "type": "string",
-            "description": "Gets the item identifier.",
-            "format": "uuid"
+            "description": "Gets the item identifier."
           },
           "PlaylistItemId": {
             "type": "string",
             "description": "Gets the playlist identifier of the item.",
-            "format": "uuid",
             "readOnly": true
           }
         },
@@ -66880,7 +66469,6 @@
           "GroupId": {
             "type": "string",
             "description": "Gets the group identifier.",
-            "format": "uuid",
             "readOnly": true
           },
           "Data": {
@@ -66931,7 +66519,6 @@
           "GroupId": {
             "type": "string",
             "description": "Gets the group identifier.",
-            "format": "uuid",
             "readOnly": true
           },
           "Data": {
@@ -66969,7 +66556,6 @@
           "GroupId": {
             "type": "string",
             "description": "Gets the group identifier.",
-            "format": "uuid",
             "readOnly": true
           },
           "Data": {
@@ -67464,8 +67050,7 @@
           },
           "OwnerId": {
             "type": "string",
-            "description": "Gets or sets the owner id.",
-            "format": "uuid"
+            "description": "Gets or sets the owner id."
           }
         },
         "additionalProperties": false,
@@ -67485,8 +67070,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -67552,8 +67136,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -67613,7 +67196,6 @@
           },
           "ProgramId": {
             "type": "string",
-            "format": "uuid",
             "nullable": true
           }
         },
@@ -67643,8 +67225,7 @@
           },
           "ChannelId": {
             "type": "string",
-            "description": "Gets or sets the channel id of the recording.",
-            "format": "uuid"
+            "description": "Gets or sets the channel id of the recording."
           },
           "ExternalChannelId": {
             "type": "string",
@@ -67923,8 +67504,7 @@
             "nullable": true
           },
           "ItemId": {
-            "type": "string",
-            "format": "uuid"
+            "type": "string"
           },
           "SearchProviderName": {
             "type": "string",
@@ -68517,8 +68097,7 @@
         "properties": {
           "Id": {
             "type": "string",
-            "description": "Gets or sets the library item id.",
-            "format": "uuid"
+            "description": "Gets or sets the library item id."
           },
           "LibraryOptions": {
             "allOf": [
@@ -68567,8 +68146,7 @@
           "Ids": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "description": "Gets or sets item ids of the playlist.",
             "nullable": true
@@ -68753,8 +68331,7 @@
           "GroupedFolders": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           "SubtitleMode": {
@@ -68781,22 +68358,19 @@
           "OrderedViews": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           "LatestItemsExcludes": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           "MyMediaExcludes": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           },
           "HidePlayedInLatest": {
@@ -68834,8 +68408,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -68892,8 +68465,7 @@
         "properties": {
           "UserId": {
             "type": "string",
-            "description": "Gets or sets the user id.",
-            "format": "uuid"
+            "description": "Gets or sets the user id."
           },
           "UserDataList": {
             "type": "array",
@@ -68911,13 +68483,11 @@
         "properties": {
           "Data": {
             "type": "string",
-            "description": "Gets or sets the data.",
-            "format": "uuid"
+            "description": "Gets or sets the data."
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
@@ -68989,8 +68559,7 @@
           },
           "Id": {
             "type": "string",
-            "description": "Gets or sets the id.",
-            "format": "uuid"
+            "description": "Gets or sets the id."
           },
           "PrimaryImageTag": {
             "type": "string",
@@ -69111,8 +68680,7 @@
           },
           "ItemId": {
             "type": "string",
-            "description": "Gets or sets the item identifier.",
-            "format": "uuid"
+            "description": "Gets or sets the item identifier."
           }
         },
         "additionalProperties": false,
@@ -69257,8 +68825,7 @@
           "EnabledChannels": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "nullable": true
           },
@@ -69268,8 +68835,7 @@
           "EnabledFolders": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "nullable": true
           },
@@ -69294,16 +68860,14 @@
           "BlockedMediaFolders": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "nullable": true
           },
           "BlockedChannels": {
             "type": "array",
             "items": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             },
             "nullable": true
           },
@@ -69347,8 +68911,7 @@
           },
           "MessageId": {
             "type": "string",
-            "description": "Gets or sets the message id.",
-            "format": "uuid"
+            "description": "Gets or sets the message id."
           },
           "MessageType": {
             "enum": [
