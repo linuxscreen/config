@@ -48486,7 +48486,7 @@
           "Items"
         ],
         "summary": "Gets items based on a query. which use to compatible with the Emby",
-        "operationId": "GetUsersResumeItems",
+        "operationId": "GetResumeItemsByUserId",
         "parameters": [
           {
             "name": "userId",
@@ -48633,6 +48633,292 @@
         "responses": {
           "200": {
             "description": "Items returned.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseItemDtoQueryResult"
+                }
+              },
+              "application/json; profile=\"CamelCase\"": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseItemDtoQueryResult"
+                }
+              },
+              "application/json; profile=\"PascalCase\"": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseItemDtoQueryResult"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "The server is currently starting or is temporarily not available.",
+            "headers": {
+              "Retry-After": {
+                "description": "A hint for when to retry the operation in full seconds.",
+                "allowEmptyValue": true,
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "Message": {
+                "description": "A short plain-text reason why the server is not available.",
+                "allowEmptyValue": true,
+                "schema": {
+                  "type": "string",
+                  "format": "text"
+                }
+              }
+            },
+            "content": {
+              "text/html": { }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "CustomAuthentication": [
+              "DefaultAuthorization"
+            ]
+          }
+        ]
+      }
+    },
+    "/Users/{userId}/Items/Latest": {
+      "get": {
+        "tags": [
+          "UserLibrary"
+        ],
+        "summary": "Gets latest media. which use to compatible with the Emby",
+        "operationId": "GetLatestMediaByUserId",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "description": "User id.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "parentId",
+            "in": "query",
+            "description": "Specify this to localize the search to a specific item or folder. Omit to use the root.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "description": "Optional. Specify additional fields of information to return in the output.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/ItemFields"
+              }
+            }
+          },
+          {
+            "name": "includeItemTypes",
+            "in": "query",
+            "description": "Optional. If specified, results will be filtered based on item type. This allows multiple, comma delimited.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/BaseItemKind"
+              }
+            }
+          },
+          {
+            "name": "isPlayed",
+            "in": "query",
+            "description": "Filter by items that are played, or not.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "enableImages",
+            "in": "query",
+            "description": "Optional. include image information in output.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "imageTypeLimit",
+            "in": "query",
+            "description": "Optional. the max number of images to return, per image type.",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "enableImageTypes",
+            "in": "query",
+            "description": "Optional. The image types to include in the output.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/ImageType"
+              }
+            }
+          },
+          {
+            "name": "enableUserData",
+            "in": "query",
+            "description": "Optional. include user data.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Return item limit.",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          },
+          {
+            "name": "groupItems",
+            "in": "query",
+            "description": "Whether or not to group items into a parent container.",
+            "schema": {
+              "type": "boolean",
+              "default": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Latest media returned.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BaseItemDto"
+                  }
+                }
+              },
+              "application/json; profile=\"CamelCase\"": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BaseItemDto"
+                  }
+                }
+              },
+              "application/json; profile=\"PascalCase\"": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BaseItemDto"
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "The server is currently starting or is temporarily not available.",
+            "headers": {
+              "Retry-After": {
+                "description": "A hint for when to retry the operation in full seconds.",
+                "allowEmptyValue": true,
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "Message": {
+                "description": "A short plain-text reason why the server is not available.",
+                "allowEmptyValue": true,
+                "schema": {
+                  "type": "string",
+                  "format": "text"
+                }
+              }
+            },
+            "content": {
+              "text/html": { }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "CustomAuthentication": [
+              "DefaultAuthorization"
+            ]
+          }
+        ]
+      }
+    },
+    "/Users/{userId}/Views": {
+      "get": {
+        "tags": [
+          "UserViews"
+        ],
+        "summary": "Get user views.",
+        "operationId": "GetUserViewsByUserId",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "description": "User id.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "includeExternalContent",
+            "in": "query",
+            "description": "Whether or not to include external views such as channels or live tv.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "presetViews",
+            "in": "query",
+            "description": "Preset views.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/CollectionType"
+              }
+            }
+          },
+          {
+            "name": "includeHidden",
+            "in": "query",
+            "description": "Whether or not to include hidden content.",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "User views returned.",
             "content": {
               "application/json": {
                 "schema": {
