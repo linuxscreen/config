@@ -56922,6 +56922,14 @@
       "ChapterInfo": {
         "type": "object",
         "properties": {
+          "ChapterIndex": {
+            "type": "integer",
+            "description": "Index of chapterInfo.",
+            "format": "int64"
+          },
+          "MarkerType": {
+            "$ref": "#/components/schemas/MarkerType"
+          },
           "StartPositionTicks": {
             "type": "integer",
             "description": "Gets or sets the start position ticks.",
@@ -56948,6 +56956,15 @@
         },
         "additionalProperties": false,
         "description": "Class ChapterInfo."
+      },
+      "MarkerType": {
+        "enum": [
+          "Chapter",
+          "IntroStart",
+          "IntroEnd",
+          "CreditsStart"
+        ],
+        "type": "string"
       },
       "ClientCapabilitiesDto": {
         "type": "object",
