@@ -23442,6 +23442,48 @@
         ]
       }
     },
+    "/Episode/{itemId}/IntroSkipperSegments": {
+      "get": {
+        "tags": ["SkipIntro"],
+        "summary": "Gets a dictionary of all skippable segments",
+        "description": "Returns all available skippable segments for a media item",
+        "operationId": "getSkippableSegments",
+        "security": [
+          {
+            "CustomAuthentication": [
+              "DefaultAuthorization"
+            ]
+          }
+        ],
+        "parameters": [
+          {
+            "name": "itemId",
+            "in": "path",
+            "required": true,
+            "description": "Episode ID",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Skippable segments dictionary",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/Segment"
+                  },
+                  "description": "Dictionary mapping AnalysisMode to Segment"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/UserItems/{itemId}/UserData": {
       "get": {
         "tags": [
@@ -54419,6 +54461,42 @@
   },
   "components": {
     "schemas": {
+      "Segment": {
+        "type": "object",
+        "description": "Represents a time segment in media content",
+        "properties": {
+          "EpisodeId": {
+            "type": "string",
+            "description": "ID of the episode this segment belongs to"
+          },
+          "Start": {
+            "type": "number",
+            "format": "double",
+            "description": "Start time in seconds"
+          },
+          "End": {
+            "type": "number",
+            "format": "double",
+            "description": "End time in seconds"
+          },
+          "Valid": {
+            "type": "boolean",
+            "description": "Whether this segment is valid"
+          }
+        },
+        "required": ["Start", "End"]
+      },
+      "AnalysisMode": {
+        "type": "string",
+        "enum": [
+          "Introduction",
+          "Credits",
+          "Recap",
+          "Preview",
+          "Commercial"
+        ],
+        "description": "Type of content analysis to perform"
+      },
       "AccessSchedule": {
         "type": "object",
         "properties": {
