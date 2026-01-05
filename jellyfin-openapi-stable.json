@@ -23442,6 +23442,47 @@
         ]
       }
     },
+    "/Episode/{itemId}/Timestamps": {
+      "get": {
+        "tags": ["SkipIntro"],
+        "summary": "Gets the timestamps for the provided episode",
+        "description": "Retrieves all segment timestamps for an episode",
+        "operationId": "getTimestamps",
+        "security": [
+          {
+            "CustomAuthentication": [
+              "DefaultAuthorization"
+            ]
+          }
+        ],
+        "parameters": [
+          {
+            "name": "itemId",
+            "in": "path",
+            "required": true,
+            "description": "Episode ID",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TimeStamps"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Given ID is not an Episode"
+          }
+        }
+      }
+    },
     "/Episode/{itemId}/IntroSkipperSegments": {
       "get": {
         "tags": ["SkipIntro"],
@@ -54461,6 +54502,27 @@
   },
   "components": {
     "schemas": {
+      "TimeStamps": {
+        "type": "object",
+        "description": "Container for all segment timestamps",
+        "properties": {
+          "Introduction": {
+            "$ref": "#/components/schemas/Segment"
+          },
+          "Credits": {
+            "$ref": "#/components/schemas/Segment"
+          },
+          "Recap": {
+            "$ref": "#/components/schemas/Segment"
+          },
+          "Preview": {
+            "$ref": "#/components/schemas/Segment"
+          },
+          "Commercial": {
+            "$ref": "#/components/schemas/Segment"
+          }
+        }
+      },
       "Segment": {
         "type": "object",
         "description": "Represents a time segment in media content",
